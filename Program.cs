@@ -6,7 +6,8 @@ namespace PropertiesDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Employee employee = new Employee{Id=1001, Name="Ashok", Salary=98000};
+            Console.WriteLine(employee);
         }
     }
 }
